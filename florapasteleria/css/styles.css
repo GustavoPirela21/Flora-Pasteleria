@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: "Montserrat", sans-serif;
+}
+
+/*------Header-----*/
+
+header nav{
+    background-color: #ADDCE9;
+}
+
+header nav ul li{
+    font-size: 20px;
+}
+
+
+/*------Main-----*/
+
+.hero{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-image: url(../images/hero-image2.jpg);
+    background-size: cover;
+    
+}
+.hero h2{
+    font-size: 42px;
+    color: white;
+}
+
+.hero p{
+    margin-bottom: 25px;
+}
+
+
+.hero a{
+    text-decoration: none;
+    background-color: black;
+    color: white;  
+    padding: 10px;
+}
+
+/*------Servicios-----*/
+
+.titulo-servicios{
+    background-color: #ADDCE9;
+    text-align: center;
+    height: 40px;
+    color: white;
+    margin: auto;
+}
+
+.parrafo-servicios{
+    text-align: center;
+    font-size: 19px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: rgb(240, 245, 250);
+}
+
+.parrafo-servicios p{
+    width: 800px;
+    
+}
+
+.eventos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cfebf3;
+    }
+
+.eventos div{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.eventos div h3{
+    color: white;
+    font-size: 28px;
+}
+
+
+
+
+.eventos-empresariales img{
+    height: 500px;
+    width: 500px;
+    border: solid 1px white;
+}
+
+
+.eventos-privados img{
+    height: 500px;
+    width: 500px;
+    border: solid 1px white;
+}
+
+
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*-----Footer-----*/
+
+.icon.elem{
+    width: 24px;
+    height: 24px;
+}
+
+/*-----Catalogo tortas-----*/
+.tortas-container div{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #ADDCE9;
+    padding: 30px;
+}
+
+.tortas-container div a{
+    background-color: #ADDCE9;
+    border-color: #ADDCE9;
+}
+
+.tarjeta-tortas{
+    margin: 10px;
+    border-style: none;
+    width: 270px;
+    height: 300px;
+    text-align: center;
+}
+
+.tarjeta-tortas img{
+    border-radius: 5%;
+}
+
+.tortas-container h2{
+    text-align: center;
+    font-size: 64px;
+}
+
+/*----Contactanos-----*/
+
+.form-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form-container h2{
+    font-size: 64px;
+}
+
+.form-container div{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+}
+
+
+/*---Sobre Flora----*/
+
+.sobreflora h1{
+    text-align: center;
+    color: #ADDCE9;
+    background-color: white;
+    margin: 20px
+}
+
+.sobreflora div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.sobreflora div p{
+    width: 850px;
+    text-align: center;
+}
+
+/*----Corporativos----*/
+
+.hero-corporativos{
+    width:100%;
+    height: 500px;
+    background-image: url(../images/eventos_7.jpg);
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    background-size: cover;
+
+}
+
+.corporativos-texto{
+    margin: 20px;
+    padding:20px 0 0 0;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+.corporativos-texto h3{
+    color: #ADDCE9;
+}
+
+.corporativos-section h4{
+    background-color: #ADDCE9;
+    text-align: center;
+    height: 40px;
+    color: white;
+    padding: 4px;
+}
+
+.form-eventos{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.inputs-eventos{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin:10px 0 10px 20px;
+    line-height: 2em;   
+}
